@@ -1,0 +1,21 @@
+.App {
+    padding: 10px;
+    font-size: x-large;
+
+    select{
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .Table {
+        border-spacing: 50px;
+        border-collapse: separate;
+
+    }
+
+    .InputText {
+        border: 2px solid black;
+    }
+
+}
